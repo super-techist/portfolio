@@ -1,0 +1,23 @@
+.toggle-sidebar{
+    position: fixed;
+    top: 38px;
+    right: 30px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+nav{
+    li{
+        &.active{
+            color: $yellow;
+        }
+    }
+}
+
+
+// Navigation Active
+.main-container.show-navigation{
+
+
+}
+
